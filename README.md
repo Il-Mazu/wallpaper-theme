@@ -2,9 +2,9 @@
 
 A Python script that changes KDE Plasma's colors when you switch wallpapers. It reads the wallpaper's preview image, picks an accent, and creates a matching dark color scheme.
 
-Supports Wallpaper Engine for KDE (`com.github.catsout.wallpaperEngineKde`) and ordinary KDE image wallpapers. Animated previews use their first frame. Everything runs locally.
+Works with Wallpaper Engine for KDE (`com.github.catsout.wallpaperEngineKde`) and ordinary KDE image wallpapers. It updates KDE colors, accent-aware folders, Compact Pager, Andromeda Launcher, and a Konsole profile. Fonts, icon theme, layout, and animations stay as configured.
 
-It updates window colors, selections, accent-aware folder icons, the Compact Pager border, the Andromeda Launcher indicator, and a Konsole profile. Fonts, icon theme, panel layout, and animations stay as configured. SDDM is separate and isn't changed.
+Everything runs locally. Live wallpapers are sampled from the first frame of their preview image. SDDM isn't changed.
 
 ## Install
 
